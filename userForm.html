@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="./css/userForm.css">
+</head>
+
+<body>
+  <div class="container">
+    <form onsubmit="emailSent(event)">
+        <h1>Book Now</h1>
+        <div >
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div >
+            <label for="gmailid" >Email</label>
+            <input type="email" placeholder="Enter your email" id="gmailid">
+        </div>
+        
+       
+        <button type="submit" class="btn">submit</button>
+    </form>
+  </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script >
+      
+        function emailSent(e) {
+            console.log('hello');
+            let name=document.getElementById('name').value;
+            e.preventDefault();
+
+            Email.send({
+                
+                Host: "smtp.elasticemail.com",
+                Username: "arbind.bay20@gmail.com",
+                Password: "B2FF5F942C0A84B297339BE93DACE6866287",
+                From: 'arbind.bay20@gmail.com',
+                To: document.getElementById('gmailid').value,
+                Subject: 'About booking holl tickets',
+                Body: `Hello,${name}
+                    You sheet have been booked `
+            }).then(
+                message => alert(message)
+            );      
+        }
+    </script>
+
+
+</body>
+
+</html>
