@@ -119,7 +119,7 @@ function getMovieInfo(movie, time,) {
   // Replace this with your own logic to retrieve movie information from a data source
   var moviesData = {
     10: {
-      time1: { title: 'Revenge (10:00 AM - 2:00 PM)', description: 'Revenge description for  ', moviePrice: 10 },
+      time1: { title: 'Revenge (10:00 AM - 2:00 PM)', description: 'Revenge description for this is about...........', moviePrice: 10 },
       time2: { title: 'Revenge (2:00 PM - 6:00 PM)', description: 'Revenge description for  this is about...........', moviePrice: 10  },
       time3: { title: 'Revenge (6:00 PM - 10:00PM )', description: 'Revenge description for  this is about...........', moviePrice: 10  }
     },
