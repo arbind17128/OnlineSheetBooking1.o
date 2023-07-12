@@ -119,19 +119,19 @@ function getMovieInfo(movie, time,) {
   // Replace this with your own logic to retrieve movie information from a data source
   var moviesData = {
     10: {
-      time1: { title: 'Revenge(after mid night) (10:00 AM - 2:00 PM)', description: 'Revenge(after mid night) description for  ', moviePrice: 10 },
-      time2: { title: 'Revenge(after mid night) (2:00 PM - 6:00 PM)', description: 'Revenge(after mid night) description for  badala aadi rat k baad', moviePrice: 10  },
-      time3: { title: 'Revenge(after mid night) (6:00 PM - 10:00PM )', description: 'Revenge(after mid night) description for  badala aadi rat k baad', moviePrice: 10  }
+      time1: { title: 'Revenge (10:00 AM - 2:00 PM)', description: 'Revenge description for  ', moviePrice: 10 },
+      time2: { title: 'Revenge (2:00 PM - 6:00 PM)', description: 'Revenge description for  badala aadi rat k baad', moviePrice: 10  },
+      time3: { title: 'Revenge (6:00 PM - 10:00PM )', description: 'Revenge description for  badala aadi rat k baad', moviePrice: 10  }
     },
     12: {
-      time1: { title: 'Revenge 2(after mid night) (10:00 AM - 2:00 PM )', description: 'Revenge 2(after mid night) description for  badala aadi rat k baad' , moviePrice: 12 },
-      time2: { title: 'Revenge 2(after mid night) (2:00 PM - 6:00 PM)', description: 'Revenge 2(after mid night) description for  badala aadi rat k baad', moviePrice: 12 },
-      time3: { title: 'Revenge 2(after mid night) (6:00 PM - 10:00PM )', description: 'Revenge 2(after mid night) description for  badala aadi rat k baad', moviePrice: 12  }
+      time1: { title: 'Revenge 2 (10:00 AM - 2:00 PM )', description: 'Revenge 2 description for  badala aadi rat k baad' , moviePrice: 12 },
+      time2: { title: 'Revenge 2 (2:00 PM - 6:00 PM)', description: 'Revenge 2 description for  badala aadi rat k baad', moviePrice: 12 },
+      time3: { title: 'Revenge 2 (6:00 PM - 10:00PM )', description: 'Revenge 2 description for  badala aadi rat k baad', moviePrice: 12  }
     },
     15: {
-      time1: { title: 'Revenge 3(after mid night) (10:00 AM - 2:00 PM )', description: 'Revenge 3(after mid night) description for  badala aadi rat k baad', moviePrice: 15  },
-      time2: { title: 'Revenge 3(after mid night) (2:00 PM - 6:00 PM)', description: 'Revenge 3(after mid night) description for  badala aadi rat k baad', moviePrice: 15 },
-      time3: { title: 'Revenge 3(after mid night) (6:00 PM - 10:00PM )', description: 'Revenge 3(after mid night) description badala aadi rat k baad ', moviePrice: 15 }
+      time1: { title: 'Revenge 3 (10:00 AM - 2:00 PM )', description: 'Revenge 3 description for  badala aadi rat k baad', moviePrice: 15  },
+      time2: { title: 'Revenge 3 (2:00 PM - 6:00 PM)', description: 'Revenge 3 description for  badala aadi rat k baad', moviePrice: 15 },
+      time3: { title: 'Revenge 3 (6:00 PM - 10:00PM )', description: 'Revenge 3 description badala aadi rat k baad ', moviePrice: 15 }
     }
 
   };
