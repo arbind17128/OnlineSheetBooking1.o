@@ -109,3 +109,25 @@ p.text span {
     box-shadow: 3px 3px 5px rgba(245, 222, 222, 0.1);
 }
 
+@media screen and (max-width: 480px) {
+    .btn {
+
+        width: 40%;
+        padding: 5px 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+
+    }
+  }
+  
+@media screen and (max-width: 1107px) {
+    .btn {
+
+        width: 40%;
+        padding: 5px 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+
+    }
+  }
+
