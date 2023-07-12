@@ -109,7 +109,7 @@ p.text span {
     box-shadow: 3px 3px 5px rgba(245, 222, 222, 0.1);
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .btn {
 
         width: 40%;
@@ -118,16 +118,36 @@ p.text span {
         border-radius: 10px;
 
     }
+    .bnt-color {
+        width: 40%;
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        background-color: rgb(117, 8, 249);
+        color: white;
+        border: none;
+        box-shadow: 3px 3px 5px rgba(245, 222, 222, 0.1);
+    }
   }
   
-@media screen and (max-width: 1107px) {
+@media (min-width: 481px) and (max-width: 1107px)  {
     .btn {
 
-        width: 40%;
+        width: 16%;
         padding: 5px 10px;
         font-size: 1rem;
         border-radius: 10px;
 
+    }
+    .bnt-color {
+        width: 16%;
+        padding: 5px 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+        background-color: rgb(117, 8, 249);
+        color: white;
+        border: none;
+        box-shadow: 3px 3px 5px rgba(245, 222, 222, 0.1);
     }
   }
 
